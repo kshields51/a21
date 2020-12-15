@@ -1,0 +1,341 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit
+}
+
+/*******************
+UTILITIES
+*******************/
+.flex {
+    display: flex;
+}
+
+/*******************
+FONT FAMILIES
+*******************/
+
+.yrsa {
+    font-family: 'Yrsa', serif;
+}
+
+.gothic {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/*******************
+FONT WEIGHT
+*******************/
+.fw-light {
+    font-weight: 400;
+}
+
+.fw-bold {
+    font-weight: 900;
+}
+
+.fw-yrsa-light {
+    font-weight: 300;
+}
+
+
+/*******************
+LETTER SPACING
+*******************/
+
+.ls-d-ital {
+    letter-spacing: .25px;
+}
+
+.ls-button {
+    letter-spacing: 1px;
+}
+
+.ls-title {
+    letter-spacing: 3px;
+}
+
+/*******************
+TEXT AlIGNMENT
+*******************/
+
+.ta-c {
+    text-align: center;
+}
+
+/*******************
+FONT SIZE
+*******************/
+
+.fsz-t {
+    font-size: 42px;
+}
+
+.fsz-d {
+    font-size: 2.5rem;
+}
+
+.fsz-sub {
+    font-size: 2.5rem;
+}
+
+.fsz-d-ital {
+    font-size: 1.5rem;
+}
+
+.fsz-caro {
+    font-size: 1rem;
+}
+
+
+
+/*******************
+FONT STYLES
+*******************/
+
+.italic {
+    font-style: italic;
+}
+
+/*******************
+COLORS
+*******************/
+
+.c-orange {
+    color: #ff571f;
+}
+
+.c-yellow {
+    color: #f0df00;
+}
+
+.c-white {
+    color: white;
+}
+
+/*******************
+BACKGROUND COLORS
+*******************/
+
+.bgc-yellow {
+    background-color: #f0df00;
+}
+
+.bgc-black {
+    background-color: black;
+}
+
+.bgc-orange {
+    background-color: #ff571f;
+}
+
+.bgc-cream {
+    background-color: #f2f0ee;
+}
+
+.bgc-yellow-form {
+    background-color: #f8b800;
+}
+/*******************
+MARGIN X
+*******************/
+.xmm {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 1170px;
+    
+}
+
+.xmh {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    
+}
+
+/*******************
+LINE HEIGHTS
+*******************/
+
+.lh-t {
+    line-height: 1.5;
+}
+
+
+
+/*******************
+MARGIN Y There should be a total of eight or nine of these.
+*******************/
+.ym-h-hero {
+    margin-bottom: 150px;
+}
+
+.ym-title-p {
+    margin-bottom: 32px;
+}
+
+.ym-p-button {
+    margin-bottom: 64px;
+}
+
+
+.ym-title-pdes {
+    margin-bottom: 56px;
+}
+
+.ym-pdes-button {
+    margin-bottom: 54px;
+}
+
+.ym-don2-ht {
+    padding-bottom: 96px;
+}
+
+.ym-ht-sol {
+    margin-bottom: 96px;
+}
+
+.ym-sol-caro {
+    margin-bottom: 75px;
+}
+
+.ym-title-sub {
+    margin-bottom: 28px;
+}
+
+.ym-sub-desc {
+    margin-bottom: 28px;
+}
+
+.ym-pic-button {
+    margin-bottom: 80px;
+}
+
+.ym-pdes-img {
+    margin-bottom: 28px;
+}
+
+.ym-caro-newsletter {
+    margin-bottom: 100px;
+}
+
+.ym-newsletter-sub {
+    margin-bottom: 16px;
+}
+
+/*******************
+BUTTON UTILS
+*******************/
+
+.button-1 {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 100px;
+}
+
+/*******************
+FORM UTILS
+*******************/
+
+.newsletter-form {
+    display: block;
+}
+
+form {
+    width: 100%;
+}
+
+
+input {
+    width: 100%;
+    height: 40px;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 16px;
+}
+
+/*******************
+HEADER
+*******************/
+
+.header-wrapper {
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header-img-swrapper {
+    background: url('smile.jpg');
+    background-size: cover;
+    height: 625px;
+    background-position: center center;
+}
+
+/*******************
+DONATION STYLES
+*******************/
+
+.donation-2-wrapper, .trafficking-explanation-wrapper, .solution-wrapper, .carosel-wrapper, .newsletter-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+.dddd {
+    max-width: 250px;
+    text-align: center;
+}
+
+.holistic {
+    max-width: 360px;
+}
+
+.donation-2 {
+    background: url('flowers-pics.jpg');
+    background-size: cover;
+    background-position: center top;
+    height: 625px;
+    padding-top: 100px;
+}
+
+
+/*******************
+EXPLANATION STYLES
+*******************/
+
+.trafficking-explanation {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*******************
+CAROSEL
+*******************/
+
+.carosel {
+}
+
+/*******************
+NEWSLETTER
+*******************/
+
+.newsletter {
+    height: 434px;
+    padding-top: 50px;
+}
+
