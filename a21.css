@@ -93,6 +93,25 @@ FONT SIZE
     font-size: 1rem;
 }
 
+.fsz-we {
+    font-size: 1.75rem;
+}
+
+.fsz-quote {
+    font-size: 22px;
+}
+
+.fsz-chief {
+    font-size: 14px;
+}
+
+.fsz-fine {
+    font-size: .81rem;
+}
+
+.fsz-region {
+    font-size: .88rem;
+}
 
 
 /*******************
@@ -142,6 +161,10 @@ BACKGROUND COLORS
 .bgc-yellow-form {
     background-color: #f8b800;
 }
+
+.bgc-white {
+    background-color: white;
+}
 /*******************
 MARGIN X
 *******************/
@@ -172,6 +195,8 @@ LINE HEIGHTS
 .lh-t {
     line-height: 1.5;
 }
+
+
 
 
 
@@ -235,6 +260,14 @@ MARGIN Y There should be a total of eight or nine of these.
     margin-bottom: 16px;
 }
 
+.ym-card-title-button {
+    margin-bottom: 8px;
+}
+
+.ym-card-card {
+    margin-bottom: 16px;
+}
+
 /*******************
 BUTTON UTILS
 *******************/
@@ -290,7 +323,7 @@ HEADER
 DONATION STYLES
 *******************/
 
-.donation-2-wrapper, .trafficking-explanation-wrapper, .solution-wrapper, .carosel-wrapper, .newsletter-wrapper {
+.donation-2-wrapper, .trafficking-explanation-wrapper, .solution-wrapper, .carosel-wrapper, .newsletter-wrapper, .join-the-fight-wrapper, .quote-wrapper {
     flex-direction: column;
     align-items: center;
 }
@@ -337,5 +370,109 @@ NEWSLETTER
 .newsletter {
     height: 434px;
     padding-top: 50px;
+}
+
+/*******************
+JOIN THE FIGHT
+*******************/
+
+.card {
+    height: 546px;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 32px;
+    width: 100%;
+    
+}
+
+.reading {
+    background: url('reading.jpg');
+    background-size: cover;
+}
+
+.crowd {
+    background: url('crowd.jpg');
+    background-size: cover;
+}
+
+.world {
+    background: url('world.jpg');
+    background-size: cover;
+}
+
+.card__title {
+    max-width: 250px;
+    text-align: center;
+}
+
+
+/*******************
+QUOTE
+*******************/
+
+.quote {
+    height: 274px;
+    background: url('people.jpg');
+    background-size: cover;
+    background-position: -110px 0;
+    line-height: 1.5;
+}
+
+.noone {
+    margin-bottom: 24px;
+    padding-top: 48px;
+}
+
+/*******************
+LOOP
+*******************/
+.left-side {
+    margin-right: auto;
+}
+
+/*******************
+FOOTER
+*******************/
+
+.chev-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.fine-print-text {
+    margin-bottom: 16px;
+}
+
+.fine-print {
+    margin-bottom: 32px;
+}
+.bottom-logo {
+    display: block;
+    margin-left: auto;
+}
+
+.social-icons {
+    padding-top: 16px;
+    border-top: 1px solid black;
+    margin-bottom: 32px;
+}
+
+.icon {
+    padding-right: 16px;
+}
+
+.further-links {
+    margin-bottom: 16px;
+}
+
+.further-links a {
+    padding-right: 8px;
+}
+
+.region {
+    padding-bottom: 32px;
 }
 
